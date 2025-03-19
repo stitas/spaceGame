@@ -48,20 +48,20 @@ title_rect6 = [454, 270, 116, 20]
 title_rect7 = [502, 291, 20, 20]
 
 
-player_ship = pygame.image.load(r'C:\Users\Titas\Desktop\programavimas\python\spacegame\venv\assets\starship.png')
-asteroid_img = pygame.image.load(r'C:\Users\Titas\Desktop\programavimas\python\spacegame\venv\assets\asteroid.png')
-laser_blue = pygame.image.load(r'C:\Users\Titas\Desktop\programavimas\python\spacegame\venv\assets\projectileblue.png')
-bg = pygame.image.load(r'C:\Users\Titas\Desktop\programavimas\python\spacegame\venv\assets\space.png')
+player_ship = pygame.image.load(r'assets\starship.png')
+asteroid_img = pygame.image.load(r'assets\asteroid.png')
+laser_blue = pygame.image.load(r'assets\projectileblue.png')
+bg = pygame.image.load(r'assets\space.png')
 
-explosions = [pygame.image.load(r'C:\Users\Titas\Desktop\programavimas\python\spacegame\venv\assets\regularExplosion00.png'),pygame.image.load(r'C:\Users\Titas\Desktop\programavimas\python\spacegame\venv\assets\regularExplosion01.png'),
-              pygame.image.load(r'C:\Users\Titas\Desktop\programavimas\python\spacegame\venv\assets\regularExplosion02.png'),pygame.image.load(r'C:\Users\Titas\Desktop\programavimas\python\spacegame\venv\assets\regularExplosion03.png'),
-              pygame.image.load(r'C:\Users\Titas\Desktop\programavimas\python\spacegame\venv\assets\regularExplosion04.png'),pygame.image.load(r'C:\Users\Titas\Desktop\programavimas\python\spacegame\venv\assets\regularExplosion05.png'),
-              pygame.image.load(r'C:\Users\Titas\Desktop\programavimas\python\spacegame\venv\assets\regularExplosion06.png'),pygame.image.load(r'C:\Users\Titas\Desktop\programavimas\python\spacegame\venv\assets\regularExplosion07.png'),
-              pygame.image.load(r'C:\Users\Titas\Desktop\programavimas\python\spacegame\venv\assets\regularExplosion08.png')]
+explosions = [pygame.image.load(r'assets\regularExplosion00.png'),pygame.image.load(r'assets\regularExplosion01.png'),
+              pygame.image.load(r'assets\regularExplosion02.png'),pygame.image.load(r'assets\regularExplosion03.png'),
+              pygame.image.load(r'assets\regularExplosion04.png'),pygame.image.load(r'assets\regularExplosion05.png'),
+              pygame.image.load(r'assets\regularExplosion06.png'),pygame.image.load(r'assets\regularExplosion07.png'),
+              pygame.image.load(r'assets\regularExplosion08.png')]
 
 pygame.font.init()
-font_small = pygame.font.Font(r'C:\Users\Titas\Desktop\programavimas\python\spacegame\venv\assets\font.ttf',15)
-font_big = pygame.font.Font(r'C:\Users\Titas\Desktop\programavimas\python\spacegame\venv\assets\font.ttf',40)
+font_small = pygame.font.Font(r'assets\font.ttf',15)
+font_big = pygame.font.Font(r'assets\font.ttf',40)
 
 ship_pos = []
 life = 3
